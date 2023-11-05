@@ -1,0 +1,44 @@
+{
+  "gens": [
+    {
+      "id": 1,
+      "name": "Generation I",
+      "games": ["Pokémon Red and Blue", "Pokémon Yellow", "Pokémon Green"]
+    },
+    {
+      "id": 2,
+      "name": "Generation II",
+      "games": ["Pokémon Gold and Silver", "Pokémon Crystal"]
+    },
+    {
+      "id": 3,
+      "name": "Generation III",
+      "games": ["Pokémon Ruby and Sapphire", "Pokémon Emerald", "Pokémon FireRed and LeafGreen"]
+    },
+    {
+      "id": 4,
+      "name": "Generation IV",
+      "games": ["Pokémon Diamond and Pearl", "Pokémon Platinum", "Pokémon HeartGold and SoulSilver"]
+    },
+    {
+      "id": 5,
+      "name": "Generation V",
+      "games": ["Pokémon Black and White", "Pokémon Black 2 and White 2"]
+    },
+    {
+      "id": 6,
+      "name": "Generation VI",
+      "games": ["Pokémon X and Y", "Pokémon Omega Ruby and Alpha Sapphire"]
+    },
+    {
+      "id": 7,
+      "name": "Generation VII",
+      "games": ["Pokémon Sun and Moon", "Pokémon Ultra Sun and Ultra Moon", "Pokémon Let's Go, Pikachu! and Let's Go, Eevee!"]
+    },
+    {
+      "id": 8,
+      "name": "Generation VIII",
+      "games": ["Pokémon Sword and Shield", "Pokémon Brilliant Diamond and Shining Pearl"]
+    }
+  ]
+}
