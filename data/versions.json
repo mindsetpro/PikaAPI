@@ -1,0 +1,64 @@
+{
+  "game_versions": [
+    {
+      "name": "Pokémon Red and Blue",
+      "generation": 1,
+      "release_date": "1996-02-27"
+    },
+    {
+      "name": "Pokémon Yellow",
+      "generation": 1,
+      "release_date": "1998-09-12"
+    },
+    {
+      "name": "Pokémon Gold and Silver",
+      "generation": 2,
+      "release_date": "1999-11-21"
+    },
+    {
+      "name": "Pokémon Crystal",
+      "generation": 2,
+      "release_date": "2000-12-14"
+    },
+    {
+      "name": "Pokémon Ruby and Sapphire",
+      "generation": 3,
+      "release_date": "2002-11-21"
+    },
+    {
+      "name": "Pokémon Emerald",
+      "generation": 3,
+      "release_date": "2004-09-16"
+    },
+    {
+      "name": "Pokémon Diamond and Pearl",
+      "generation": 4,
+      "release_date": "2006-09-28"
+    },
+    {
+      "name": "Pokémon Platinum",
+      "generation": 4,
+      "release_date": "2008-09-13"
+    },
+    {
+      "name": "Pokémon Black and White",
+      "generation": 5,
+      "release_date": "2010-09-18"
+    },
+    {
+      "name": "Pokémon X and Y",
+      "generation": 6,
+      "release_date": "2013-10-12"
+    },
+    {
+      "name": "Pokémon Sun and Moon",
+      "generation": 7,
+      "release_date": "2016-11-18"
+    },
+    {
+      "name": "Pokémon Sword and Shield",
+      "generation": 8,
+      "release_date": "2019-11-15"
+    }
+  ]
+}
