@@ -1,0 +1,94 @@
+{
+  "types": [
+    {
+      "name": "Normal",
+      "weaknesses": ["Fighting"],
+      "advantages": []
+    },
+    {
+      "name": "Fire",
+      "weaknesses": ["Water", "Ground", "Rock"],
+      "advantages": ["Grass", "Ice", "Bug", "Steel"]
+    },
+    {
+      "name": "Water",
+      "weaknesses": ["Electric", "Grass"],
+      "advantages": ["Fire", "Ground", "Rock"]
+    },
+    {
+      "name": "Electric",
+      "weaknesses": ["Ground"],
+      "advantages": ["Water", "Flying"]
+    },
+    {
+      "name": "Grass",
+      "weaknesses": ["Fire", "Ice", "Poison", "Flying", "Bug"],
+      "advantages": ["Water", "Ground", "Rock"]
+    },
+    {
+      "name": "Ice",
+      "weaknesses": ["Fire", "Fighting", "Rock", "Steel"],
+      "advantages": ["Grass", "Ground", "Flying", "Dragon"]
+    },
+    {
+      "name": "Fighting",
+      "weaknesses": ["Flying", "Psychic", "Fairy"],
+      "advantages": ["Normal", "Ice", "Rock", "Dark", "Steel"]
+    },
+    {
+      "name": "Poison",
+      "weaknesses": ["Ground", "Psychic"],
+      "advantages": ["Grass", "Fairy"]
+    },
+    {
+      "name": "Ground",
+      "weaknesses": ["Water", "Grass", "Ice"],
+      "advantages": ["Fire", "Electric", "Poison", "Rock", "Steel"]
+    },
+    {
+      "name": "Flying",
+      "weaknesses": ["Electric", "Ice", "Rock"],
+      "advantages": ["Grass", "Fighting", "Bug"]
+    },
+    {
+      "name": "Psychic",
+      "weaknesses": ["Bug", "Ghost", "Dark"],
+      "advantages": ["Fighting", "Poison"]
+    },
+    {
+      "name": "Bug",
+      "weaknesses": ["Fire", "Flying", "Rock"],
+      "advantages": ["Grass", "Psychic", "Dark"]
+    },
+    {
+      "name": "Rock",
+      "weaknesses": ["Water", "Grass", "Fighting", "Ground", "Steel"],
+      "advantages": ["Fire", "Ice", "Flying", "Bug"]
+    },
+    {
+      "name": "Ghost",
+      "weaknesses": ["Ghost", "Dark"],
+      "advantages": ["Psychic", "Ghost"]
+    },
+    {
+      "name": "Dragon",
+      "weaknesses": ["Ice", "Dragon", "Fairy"],
+      "advantages": ["Dragon"]
+    },
+    {
+      "name": "Dark",
+      "weaknesses": ["Fighting", "Bug", "Fairy"],
+      "advantages": ["Psychic", "Ghost"]
+    },
+    {
+      "name": "Steel",
+      "weaknesses": ["Fire", "Fighting", "Ground"],
+      "advantages": ["Ice", "Rock", "Fairy"]
+    },
+    {
+      "name": "Fairy",
+      "weaknesses": ["Poison", "Steel"],
+      "advantages": ["Fighting", "Dragon", "Dark"]
+    }
+  ]
+}
