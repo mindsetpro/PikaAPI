@@ -15,10 +15,6 @@
     {
       "name": "pokemon",
       "url": "https://github.com/mindsetpro/PikaAPI/data/pokemon.json"
-    },
-    {
-      "name": "versioning",
-      "url": "https://github.com/mindsetpro/PikaAPI/data/versioning.json"
     }
   ]
 }
