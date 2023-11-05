@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>PikaAPI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -37,9 +38,38 @@
             color: #3498db;
             font-weight: bold;
             font-size: 20px;
+            padding: 10px 20px;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            transition: all 0.3s ease;
         }
         a:hover {
             color: #e67e22;
+            background-color: #3498db;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
         }
         .footer {
             position: fixed;
@@ -57,17 +87,21 @@
     <img src="https://cdn.discordapp.com/attachments/1170719296763199600/1170800541102776420/389f79df16a1f721032ff444de5e7dd5.png?ex=655a5bf9&is=6547e6f9&hm=8a448fdeabd6cb09a56d87f2d2220bd60c7300c81d232e08349938c7271c8d87" alt="Pikachu Logo" class="logo">
     <h1>Welcome to PikaAPI</h1>
     <p>Explore Pokémon data through our API.</p>
-    <ul>
-        <li><a href="data/gens.json">Generations</a></li>
-        <li><a href="data/types.json">Types</a></li>
-        <li><a href="data/pokemon.json">Pokemon</a></li>
-        <li><a href="data/versions.json">Versioning of Games</a></li>
-        <li><a href="data/berries.json">Berries</a></li>
-        <li><a href="data/endpoints.json">Endpoints</a></li>
-        <li><a href="docs/index.html">Documentation</a></li>
-        <li><a href="more-endpoints.html">More Endpoints</a></li>
-        <li><a href="about.html">About</a></li>
-    </ul>
+    <div class="dropdown">
+        <button class="dropbtn">Data
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="data/gens.json">Generations</a>
+            <a href="data/types.json">Types</a>
+            <a href="data/pokemon.json">Pokemon</a>
+            <a href="data/versions.json">Versioning of Games</a>
+            <a href="data/berries.json">Berries</a>
+            <a href="data/endpoints.json">Endpoints</a>
+        </div>
+    </div>
+    <a href="docs/index.html">Documentation</a>
+    <a href="about.html">About</a>
     <div class="footer">
         <p>Contact us at gdnunuuwu@gmail.com</p>
     </div>
