@@ -7,6 +7,8 @@
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
         }
         .logo {
             width: 200px;
@@ -24,6 +26,7 @@
         ul {
             list-style-type: none;
             padding: 0;
+            margin-top: 40px;
         }
         li {
             display: inline;
@@ -38,6 +41,16 @@
         a:hover {
             color: #e67e22;
         }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
     </style>
 </head>
 <body>
@@ -48,9 +61,15 @@
         <li><a href="data/gens.json">Generations</a></li>
         <li><a href="data/types.json">Types</a></li>
         <li><a href="data/pokemon.json">Pokemon</a></li>
-        <li><a href="data/versions.json">versioning of games</a></li>
+        <li><a href="data/versions.json">Versioning of Games</a></li>
         <li><a href="data/berries.json">Berries</a></li>
-        <li><a href="data/endpoints.json">endpoints</a></li>
+        <li><a href="data/endpoints.json">Endpoints</a></li>
+        <li><a href="docs/index.html">Documentation</a></li>
+        <li><a href="more-endpoints.html">More Endpoints</a></li>
+        <li><a href="about.html">About</a></li>
     </ul>
+    <div class="footer">
+        <p>Contact us at contact@pikaapi.com</p>
+    </div>
 </body>
 </html>
