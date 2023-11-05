@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PikaAPI Documentation</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .accordion {
+            background-color: #f9f9f9;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+        }
+        .active, .accordion:hover {
+            background-color: #ddd;
+        }
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+<h1>PikaAPI Documentation</h1>
+
+<button class="accordion">Introduction</button>
+<div class="panel">
+    <p>Welcome to the PikaAPI documentation. Here you will find information on how to use our API to access various Pokémon data.</p>
+</div>
+
+<button class="accordion">Getting Started</button>
+<div class="panel">
+    <p>To get started using the PikaAPI, you will need to sign up for an API key. Once you have your key, you can start making requests to our endpoints.</p>
+</div>
+
+<button class="accordion">Endpoints</button>
+<div class="panel">
+    <p>Our API provides several endpoints that allow you to access information about Pokémon generations, types, berries, and more. Refer to the specific endpoint documentation for details on how to use each endpoint.</p>
+</div>
+
+<button class="accordion">Authentication</button>
+<div class="panel">
+    <p>For most endpoints, you will need to include your API key in the request headers for authentication. Make sure to include the key in the 'Authorization' header with the value 'Bearer YOUR_API_KEY'.</p>
+</div>
+
+<button class="accordion">Examples</button>
+<div class="panel">
+    <p>Below are some examples demonstrating how to make requests to our API using various programming languages such as JavaScript, Python, and Ruby.</p>
+</div>
+
+<button class="accordion">Support</button>
+<div class="panel">
+    <p>If you have any questions or need further assistance, please reach out to our support team at support@pikaapi.com.</p>
+</div>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</body>
+</html>
