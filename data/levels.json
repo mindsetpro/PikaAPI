@@ -1,0 +1,68 @@
+{
+  "game_levels": [
+    {
+      "game_title": "Pokémon Red and Blue",
+      "levels": {
+        "low": 5,
+        "medium": 20,
+        "high": 50
+      }
+    },
+    {
+      "game_title": "Pokémon Gold and Silver",
+      "levels": {
+        "low": 10,
+        "medium": 30,
+        "high": 70
+      }
+    },
+    {
+      "game_title": "Pokémon Ruby and Sapphire",
+      "levels": {
+        "low": 5,
+        "medium": 25,
+        "high": 60
+      }
+    },
+    {
+      "game_title": "Pokémon Diamond and Pearl",
+      "levels": {
+        "low": 5,
+        "medium": 20,
+        "high": 70
+      }
+    },
+    {
+      "game_title": "Pokémon Black and White",
+      "levels": {
+        "low": 10,
+        "medium": 25,
+        "high": 80
+      }
+    },
+    {
+      "game_title": "Pokémon X and Y",
+      "levels": {
+        "low": 10,
+        "medium": 30,
+        "high": 85
+      }
+    },
+    {
+      "game_title": "Pokémon Sun and Moon",
+      "levels": {
+        "low": 10,
+        "medium": 35,
+        "high": 90
+      }
+    },
+    {
+      "game_title": "Pokémon Sword and Shield",
+      "levels": {
+        "low": 10,
+        "medium": 40,
+        "high": 95
+      }
+    }
+  ]
+}
