@@ -5,7 +5,7 @@
       "url": "https://github.com/mindsetpro/PikaAPI/data/gens.json"
     },
     {
-      "name": "berrys",
+      "name": "berries",
       "url": "https://github.com/mindsetpro/PikaAPI/data/berries.json"
     },
     {
@@ -15,6 +15,10 @@
     {
       "name": "pokemon",
       "url": "https://github.com/mindsetpro/PikaAPI/data/pokemon.json"
+    },
+    {
+      "name": "levels",
+      "url": "https://github.com/mindsetpro/PikaAPI/data/levels.json"
     },
     {
       "name": "versioning",
